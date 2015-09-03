@@ -92,15 +92,13 @@ a, a:hover {
 	color: #0088ff;
 }
 
-.valor {
-	margin: 0 20px;
-}
-
 .recuadro {
 	border: solid 2px #0088ff;
 	border-radius: 30px;
+	height: 320px;
 	padding: 20px;
 	text-align: center;
+	width: 282px;
 }
 
 .texto-grande {
