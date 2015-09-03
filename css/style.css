@@ -53,11 +53,6 @@ body {
 	margin: 10px 0;
 }
 
-/*.ageneral:hover > .text-general, .general {
-	background-color: #0058a6;
-	color: #0058a6;	
-}*/
-
 .ageneral:hover > .text-general{
 	color: #0058a6;	
 }
@@ -125,4 +120,20 @@ a, a:hover {
 	background: url("../img/escudo.png") no-repeat;
 	height: 118px;
 	width: 103px;
+}
+
+.escudo span {
+    color: white;
+    font-size: 50px;
+    margin: 0 27px 17px;
+    text-align: center;
+}
+
+.informacion {
+	color: white;
+	font-size: 22px;
+	font-weight: lighter;
+	padding: 10px 0;
+	text-align: center;
+	border-radius: 7px;
 }
