@@ -103,9 +103,19 @@ a, a:hover {
 	text-align: center;
 }
 
-.escudo {
+.texto-grande {
+	font-size: 40px;
+	line-height: 120%;
+}
+
+.texto-mediano {
+	font-size: 30px;
+	font-weight: lighter;
+	line-height: 120%;
+}
+/*.escudo {
    height: 180px;
    background-color: black;
    border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
 	<div id="cono"></div><style>#cono {width: 0; height: 0; border-left: 70px solid transparent; border-right: 70px solid transparent; border-top: 100px solid red; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;}</style>
-}
+}*/
