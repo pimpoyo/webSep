@@ -1,0 +1,94 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-dzykhq');
+	src:url('../fonts/icomoon.eot?#iefix-dzykhq') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?-dzykhq') format('truetype'),
+		url('../fonts/icomoon.woff?-dzykhq') format('woff'),
+		url('../fonts/icomoon.svg?-dzykhq#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-brain12:before {
+	content: "\e600";
+}
+.icon-dove3:before {
+	content: "\e601";
+}
+.icon-hand120:before {
+	content: "\e602";
+}
+.icon-investigation2:before {
+	content: "\e603";
+}
+.icon-trophy36:before {
+	content: "\e604";
+}
+.icon-two205:before {
+	content: "\e605";
+}
+.icon-add99:before {
+	content: "\e606";
+}
+.icon-metodologia:before {
+	content: "\e607";
+}
+.icon-bus6:before {
+	content: "\e608";
+}
+.icon-clock96:before {
+	content: "\e609";
+}
+.icon-servicios:before {
+	content: "\e60a";
+}
+.icon-cutlery23:before {
+	content: "\e60b";
+}
+.icon-dot:before {
+	content: "\e60c";
+}
+.icon-valores:before {
+	content: "\e60d";
+}
+.icon-first-aid:before {
+	content: "\e60e";
+}
+.icon-instalaciones:before {
+	content: "\e60f";
+}
+.icon-logotype111:before {
+	content: "\e610";
+}
+.icon-man32:before {
+	content: "\e611";
+}
+.icon-multiple25:before {
+	content: "\e612";
+}
+.icon-orientation35:before {
+	content: "\e613";
+}
+.icon-spinner7:before {
+	content: "\e614";
+}
+.icon-t-shirt15:before {
+	content: "\e615";
+}
+.icon-world91:before {
+	content: "\e616";
+}

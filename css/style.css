@@ -1,0 +1,111 @@
+/*body {
+	padding-bottom: 70px;
+}*/
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.navbar {
+	min-height: 105px;
+}
+
+.jumbotron {
+	padding-top: 105px;
+}
+
+#bs-menu {
+	padding-top: 25px;
+}
+
+.blue {
+	background-color: #00192f;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: transparent;
+    border: 1px solid #0088ff;
+    border-radius: 7px;
+    color: #ffffff;
+}
+
+.redondo {
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+
+.redondo span {
+    color: white;
+    font-size: 50px;
+    margin: 0 25px;
+    text-align: center;
+}
+
+.general {
+	background-color: #0088ff;
+}
+
+.text-general {
+	color: #0088ff;
+	margin: 10px 0;
+}
+
+/*.ageneral:hover > .text-general, .general {
+	background-color: #0058a6;
+	color: #0058a6;	
+}*/
+
+.ageneral:hover > .text-general{
+	color: #0058a6;	
+}
+
+.ageneral:hover > .general {
+	background-color: #0058a6;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.barra {
+	border-bottom: 3px solid;
+    padding: 20px 0;
+}
+
+.espacio {
+	padding: 40px 0 0 0;
+}
+
+.titular {
+	font-size: 40px;
+}
+
+.color-general {
+	color: #0088ff;
+}
+
+.valor {
+	margin: 0 20px;
+}
+
+.recuadro {
+	border: solid 2px #0088ff;
+	border-radius: 30px;
+	padding: 20px;
+	text-align: center;
+}
+
+.escudo {
+   height: 180px;
+   background-color: black;
+   border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+	<div id="cono"></div><style>#cono {width: 0; height: 0; border-left: 70px solid transparent; border-right: 70px solid transparent; border-top: 100px solid red; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;}</style>
+}
