@@ -4,8 +4,9 @@
 body {
 	margin: 0;
 	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
-	line-height: 20px;
+	font-size: 18px;
+	line-height: 120%;
+	color: #333333;
 }
 
 .navbar {
@@ -136,4 +137,40 @@ a, a:hover {
 	padding: 10px 0;
 	text-align: center;
 	border-radius: 7px;
+}
+
+.text-instalaciones {
+	font-size: 21px;
+	line-height: 120%;
+}
+.ul-instalaciones {
+	list-style: url("../img/bolo-general.png");
+}
+
+.ul-instalaciones li {
+	line-height: 140%;
+}
+
+@media (max-width: @screen-xs-max) {
+	.text-instalaciones {
+		padding: 10px 0;
+	}
+}
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+	.text-instalaciones {
+		padding: 10px 0;
+	}
+}
+
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+	.text-instalaciones {
+		padding: 10px 80px;
+	}
+}
+
+@media (min-width: @screen-lg-min) {
+	.text-instalaciones {
+		padding: 10px 80px;
+	}
 }
