@@ -137,6 +137,7 @@ a, a:hover {
 	padding: 10px 0;
 	text-align: center;
 	border-radius: 7px;
+	margin: 10px 0 0 0;
 }
 
 .text-instalaciones {
@@ -149,6 +150,17 @@ a, a:hover {
 
 .ul-instalaciones li {
 	line-height: 140%;
+}
+
+.servicios span {
+	color: #0088ff;
+	font-size: 50px;
+	margin: 0 25px;
+	text-align: center;
+}
+
+.servicios-texto {
+	margin: 0 0 40px;
 }
 
 @media (max-width: @screen-xs-max) {
