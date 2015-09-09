@@ -162,6 +162,46 @@ a, a:hover {
 .servicios-texto {
 	margin: 0 0 40px;
 }
+	.general-img {
+		background-image: url("../img/imgGeneral-lg.jpg");
+	}
+
+.general-img {
+    /*-webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);*/
+    transform: scale(1);
+	animation-name: example;
+	animation-duration: 2s;
+    /*-webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;*/
+}
+
+.submenu {
+	margin-top: -50px;
+}
+
+.navbar-default {
+	border-color: inherit;
+}
+
+@keyframes example {
+	from {
+		transform: scale(0.8);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+
+	.dim-img {
+   		max-height: 100%;
+    	min-height: 700px;
+    	width: 100%;
+		margin-top: 104px;
+	}
 
 @media (max-width: @screen-xs-max) {
 	.text-instalaciones {
@@ -185,4 +225,5 @@ a, a:hover {
 	.text-instalaciones {
 		padding: 10px 80px;
 	}
+
 }
