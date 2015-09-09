@@ -31,18 +31,39 @@
 				<div class="collapse navbar-collapse" id="bs-menu">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="#">General<span class="sr-only">(current)</span></a></li>
-						<li><a href="#">Infantil</a></li>
-						<li><a href="#">Primaria</a></li>
-						<li><a href="#">Secundaria</a></li>
-						<li><a href="#">Bachillerato</a></li>
+						<li><a href="infantil.html" class="infantil">Infantil</a></li>
+						<li><a href="primaria.html">Primaria</a></li>
+						<li><a href="secuandaria.html">Secundaria</a></li>
+						<li><a href="bachillerato.html">Bachillerato</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
+			</div>
 		</nav>
 		<div class="general-img dim-img">
 			<div class="container">
 				<h1>Hola soy Ana y compro el cariño del gato</h1>
 			</div>
+		</div>
+		<div class="container">
+			<div id="formulario">
+			<h3 class="text-general">Déjanos tus datos y te llamamos</h3>
+			<form class="form" id="form1" action="validator.php" method="POST">
+				<p class="name">
+					<input name="name" type="text" class="feedback-input" placeholder="Nombre" id="name" maxlength="100" required/>
+				</p>
+				<p class="email">
+					<input name="email" type="email" class="feedback-input" id="email" placeholder="Email" maxlength="100" required/>
+				</p>
+				<p class="phone">
+					<input name="phone" type="tel" pattern="[0-9]{9}" class="feedback-input" placeholder="Teléfono" maxlength="9" required/>
+		    </p>
+		    <input type="hidden" name="etapa" value="General" />
+				<div class="submit">
+					<input type="submit" value="Solicitar más información" id="button" class="general"/>
+					<div class="ease"></div>
+				</div>
+			</form>
+			</div>	
 		</div>
 		<div class="container submenu">
 			<div class="col-lg-3 col-md-3 col-sm-3 text-center">
@@ -54,7 +75,7 @@
 				</a>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3 text-center">
-				<a class="ageneral" href="#">
+				<a class="ageneral" href="#instalaciones">
 					<div class="redondo general center-block vertical-align">
 						<span class="icon-instalaciones"> </span>
 					</div>
@@ -62,7 +83,7 @@
 				</a>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3 text-center">
-				<a class="ageneral" href="#">
+				<a class="ageneral" href="#servicios">
 					<div class="redondo general center-block vertical-align">
 						<span class="icon-servicios"> </span>
 					</div>
@@ -70,7 +91,7 @@
 				</a>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3 text-center">
-				<a class="ageneral" href="#">
+				<a class="ageneral" href="#metodologia">
 					<div class="redondo general center-block vertical-align">
 						<span class="icon-metodologia"> </span>
 					</div>
@@ -86,12 +107,12 @@
 				<p class="texto-mediano espacio">Siguiendo el sistema educativo español impartimos todos los niveles educativos desde los dos años hasta la universidad.</p>
 			</div>
 		</div>
-		<div class="container">
+		<div class="container" id="valores">
 			<div class="col-lg-8 col-lg-offset-2 barra">
 			</div>
 			<div class="col-lg-12 espacio"> <!-- VALORES -->
 				<div class="titular color-general text-center">
-					<span class="icon-valores" id="valores"> </span><span>VALORES</span>
+					<span class="icon-valores"> </span><span>VALORES</span>
 				</div>
 				<div class="valor espacio col-lg-4 col-md-6 col-sm-12"> <!-- BILINGÜISMO -->
 					<div class="escudo center-block vertical-align">
@@ -184,11 +205,11 @@
 					</div>
 				</div> <!-- INTELIGENCIAS -->
 				<div class="col-lg-2 col-lg-offset-10 col-md-2 col-md-offset-10 col-sm-12 col-xs-12">
-					<p class="general informacion">+Información</p>
+					<a href="#formulario" class="general informacion">+Información</a>
 				</div>
 			</div> <!-- VALORES -->
 		</div>
-		<div class="container">
+		<div class="container" id="instalaciones">
 			<div class="col-lg-8 col-lg-offset-2 barra">
 			</div>
 			<div class="col-lg-12 espacio"> <!-- INSTALACIONES -->
@@ -234,7 +255,7 @@
 				</div>
 			</div> <!-- INSTALACIONES -->
 		</div>
-		<div class="container">
+		<div class="container" id="servicios">
 			<div class="col-lg-8 col-lg-offset-2 barra">
 			</div>
 			<div class="col-lg-12 espacio"> <!-- SERVICIOS -->
@@ -265,7 +286,7 @@
 				</div>
 			</div> <!-- SERVICIOS -->
 		</div>
-		<div class="container">
+		<div class="container" id="metodologia">
 			<div class="col-lg-8 col-lg-offset-2 barra">
 			</div>
 			<div class="col-lg-12 espacio"> <!-- METODOLOGIA -->

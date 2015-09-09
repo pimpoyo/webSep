@@ -1,6 +1,10 @@
 /*body {
 	padding-bottom: 70px;
 }*/
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	margin: 0;
 	font-family: 'Raleway', sans-serif;
@@ -13,9 +17,6 @@ body {
 	min-height: 105px;
 }
 
-.jumbotron {
-	padding-top: 105px;
-}
 
 #bs-menu {
 	padding-top: 25px;
@@ -30,6 +31,10 @@ body {
     border: 1px solid #0088ff;
     border-radius: 7px;
     color: #ffffff;
+}
+
+#formulario {
+	background-color: rgba(200, 200, 200, 0.4);
 }
 
 .redondo {
@@ -85,6 +90,7 @@ a, a:hover {
 
 .titular {
 	font-size: 40px;
+	padding-top: 40px;
 }
 
 .color-general {
@@ -201,7 +207,7 @@ a, a:hover {
 
 	.dim-img {
    		max-height: 100%;
-    	min-height: 700px;
+    	min-height: 600px;
     	width: 100%;
 		margin-top: 104px;
 	}
