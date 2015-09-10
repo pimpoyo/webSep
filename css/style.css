@@ -17,7 +17,6 @@ body {
 	min-height: 105px;
 }
 
-
 #bs-menu {
 	padding-top: 25px;
 }
@@ -276,5 +275,48 @@ a, a:hover {
 	.text-instalaciones {
 		padding: 10px 80px;
 	}
+}
 
+/* Override size to avoid navbar collapsing too late */
+@media (max-width: 990px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+    margin-top: 30px;
+  }
+  .navbar-collapse {
+    /* This way the border is *barely* seen */
+    box-shadow: inset 0 0px 0 rgba(255,255,255,0.01);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in{
+    display:block !important;
+  }
+}
+
+/* Remove the ugly line by removing the border */
+.navbar-collapse {
+  border-top: 0;
 }
