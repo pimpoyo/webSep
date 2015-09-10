@@ -34,7 +34,48 @@ body {
 }
 
 #formulario {
-	background-color: rgba(200, 200, 200, 0.4);
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top: 15%;
+	right: 28%;
+	margin: 30px;
+	padding: 5px 35px 25px;
+	width: 400px;
+}
+
+.feedback-input {
+    background-color: #fbfbfb;
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #3c3c3c;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.feedback-input {
+    margin-bottom: 10px;
+    padding: 13px 13px 13px 54px;
+    width: 100%;
+}
+
+#button {
+	padding-bottom: 22px;
+    padding-top: 22px;
+    width: 100%;
+	border: none;
+}
+
+.btGeneral {
+	background-color: #0088ff;
+	color: white;
+}
+.form {
+	padding-top: 104px;
+}
+.form-title-general {
+	color: #FFFFFF;
 }
 
 .redondo {
@@ -147,6 +188,7 @@ a, a:hover {
 	text-align: center;
 	border-radius: 7px;
 	margin: 10px 0 0 0;
+	text-decoration: none;
 }
 
 .text-instalaciones {
