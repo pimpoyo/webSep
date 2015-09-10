@@ -30,8 +30,8 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-menu">
 					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="#" class="select-general">General<span class="sr-only">(current)</span></a></li>
-						<li><a data-hover="Infantil" href="infantil.html" class="a-infantil">Infantil</a></li>
+						<li><a data-hover="General" href="general.html" class="a-general">General</a></li>
+						<li class="active"><a href="#" class="select-infantil">Infantil<span class="sr-only">(current)</span></a></li>
 						<li><a data-hover="Primaria" href="primaria.html" class="a-primaria">Primaria</a></li>
 						<li><a data-hover="Secundaria" href="secundaria.html" class="a-secundaria">Secundaria</a></li>
 						<li><a data-hover="Bachillerato" href="bachillerato.html" class="a-bachillerato">Bachillerato</a></li>
@@ -46,7 +46,7 @@
 			</div>
 		</div>
 		<div class="container form">
-			<div style="padding-top:105px; margin-top: -105px;" id="formulario">
+			<div id="formulario">
 			<h4 class="form-title-general">¿Quieres saber más? Déjanos tus datos y nos pondremos en contacto contigo</h4>
 			<form id="form1" action="validator.php" method="POST">
 				<p class="name">
@@ -58,9 +58,9 @@
 				<p class="phone">
 					<input name="phone" type="tel" pattern="[0-9]{9}" class="feedback-input" placeholder="Teléfono" maxlength="9" required/>
 		    </p>
-		    <input type="hidden" name="etapa" value="General" />
+		    <input type="hidden" name="etapa" value="Infantil" />
 				<div class="submit">
-					<input type="submit" value="Solicitar más información" id="button" class="btGeneral"/>
+					<input type="submit" value="Solicitar más información" id="button" class="btInfantil"/>
 					<div class="ease"></div>
 				</div>
 			</form>
@@ -68,35 +68,35 @@
 		</div>
 		<div class="container submenu">
 			<div class="col-lg-3 col-md-3 col-sm-3 text-center">
-				<a class="ageneral" href="#valores">
-					<div class="redondo general center-block vertical-align">
+				<a class="ainfantil" href="#valores">
+					<div class="redondo infantil center-block vertical-align">
 						<span class="icon-valores"> </span>
 					</div>
-					<p class="text-general">Valores</p>
+					<p class="text-infantil">Valores</p>
 				</a>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3 text-center">
-				<a class="ageneral" href="#instalaciones">
-					<div class="redondo general center-block vertical-align">
+				<a class="ainfantil" href="#instalaciones">
+					<div class="redondo infantil center-block vertical-align">
 						<span class="icon-instalaciones"> </span>
 					</div>
-					<p class="text-general">Instalaciones</p>
+					<p class="text-infantil">Instalaciones</p>
 				</a>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3 text-center">
-				<a class="ageneral" href="#servicios">
-					<div class="redondo general center-block vertical-align">
+				<a class="ainfantil" href="#servicios">
+					<div class="redondo infantil center-block vertical-align">
 						<span class="icon-servicios"> </span>
 					</div>
-					<p class="text-general">Servicios</p>
+					<p class="text-infantil">Servicios</p>
 				</a>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3 text-center">
-				<a class="ageneral" href="#metodologia">
-					<div class="redondo general center-block vertical-align">
+				<a class="ainfantil" href="#metodologia">
+					<div class="redondo infantil center-block vertical-align">
 						<span class="icon-metodologia"> </span>
 					</div>
-					<p class="text-general">Metodología</p>
+					<p class="text-infantil">Metodología</p>
 				</a>
 			</div>
 		</div>
@@ -112,7 +112,7 @@
 			<div class="col-lg-8 col-lg-offset-2 barra">
 			</div>
 			<div class="col-lg-12 espacio"> <!-- VALORES -->
-				<div class="titular color-general text-center">
+				<div class="titular color-infantil text-center">
 					<span class="icon-valores"> </span><span>VALORES</span>
 				</div>
 				<div class="valor espacio col-lg-4 col-md-6 col-sm-12"> <!-- BILINGÜISMO -->
@@ -121,7 +121,7 @@
 					</div>
 					<div class="recuadro center-block vertical-align">
 						<div>
-							<div class="titulo color-general">
+							<div class="titulo color-infantil">
 								BILINGÜISMO
 							</div>
 							<div>
@@ -136,7 +136,7 @@
 					</div>
 					<div class="recuadro center-block vertical-align">
 						<div>
-							<div class="titulo color-general">
+							<div class="titulo color-infantil">
 								CONVIVENCIA
 							</div>
 							<div>
@@ -151,7 +151,7 @@
 					</div>
 					<div class="recuadro center-block vertical-align">
 						<div>
-							<div class="titulo color-general">
+							<div class="titulo color-infantil">
 								IPAD PROJECT
 							</div>
 							<div>
@@ -166,7 +166,7 @@
 					</div>
 					<div class="recuadro center-block vertical-align">
 						<div>
-							<div class="titulo color-general">
+							<div class="titulo color-infantil">
 								SAVING THE PLANET
 							</div>
 							<div>
@@ -181,7 +181,7 @@
 					</div>
 					<div class="recuadro center-block vertical-align">
 						<div>
-							<div class="titulo color-general">
+							<div class="titulo color-infantil">
 								IA MORE
 							</div>
 							<div>
@@ -196,7 +196,7 @@
 					</div>
 					<div class="recuadro center-block vertical-align">
 						<div>
-							<div class="titulo color-general">
+							<div class="titulo color-infantil">
 								8 INTELIGENCIAS
 							</div>
 							<div>
@@ -206,7 +206,7 @@
 					</div>
 				</div> <!-- INTELIGENCIAS -->
 				<div class="col-lg-2 col-lg-offset-10 col-md-2 col-md-offset-10 col-sm-12 col-xs-12">
-					<a href="#formulario"><p class="general informacion">+Información</p></a>
+					<a href="#formulario"><p class="infantil informacion">+Información</p></a>
 				</div>
 			</div> <!-- VALORES -->
 		</div>
@@ -214,7 +214,7 @@
 			<div class="col-lg-8 col-lg-offset-2 barra">
 			</div>
 			<div class="col-lg-12 espacio"> <!-- INSTALACIONES -->
-				<div class="titular color-general text-center">
+				<div class="titular color-infantil text-center">
 					<span class="icon-instalaciones"> </span><span>INSTALACIONES</span>
 				</div>
 				<div>
@@ -252,7 +252,7 @@
 					</div>
 				</div>
 				<div class="col-lg-2 col-lg-offset-10 col-md-2 col-md-offset-10 col-sm-12 col-xs-12 espacio">
-					<a href="#formulario"><p class="general informacion">+Información</p></a>
+					<a href="#formulario"><p class="infantil informacion">+Información</p></a>
 				</div>
 			</div> <!-- INSTALACIONES -->
 		</div>
@@ -260,30 +260,30 @@
 			<div class="col-lg-8 col-lg-offset-2 barra">
 			</div>
 			<div class="col-lg-12 espacio"> <!-- SERVICIOS -->
-				<div class="titular color-general text-center">
+				<div class="titular color-infantil text-center">
 					<span class="icon-servicios"> </span><span>SERVICIOS</span>
 				</div>
 				<div class="espacio">
 					<div class="col-lg-12">
-						<div class="col-lg-1 servicios serviciosG text-center"><span class="icon-comedor"> </span></div><div class="col-lg-5 text-center servicios-texto">COMEDOR. Dieta equilibrada, cocinada diariamente y bajo control
+						<div class="col-lg-1 servicios serviciosI text-center"><span class="icon-comedor"> </span></div><div class="col-lg-5 text-center servicios-texto">COMEDOR. Dieta equilibrada, cocinada diariamente y bajo control
 							sanitario.</div>
-						<div class="col-lg-1 servicios serviciosG text-center"><span class="icon-uniforme"> </span></div><div class="col-lg-5 text-center servicios-texto">UNIFORMES. La venta se realiza en la tienda del colegio y está gestionada por una empresa externa.</div>
+						<div class="col-lg-1 servicios serviciosI text-center"><span class="icon-uniforme"> </span></div><div class="col-lg-5 text-center servicios-texto">UNIFORMES. La venta se realiza en la tienda del colegio y está gestionada por una empresa externa.</div>
 					</div>	
 					<div class="col-lg-12">
-						<div class="col-lg-1 servicios serviciosG text-center"><span class="icon-metodologia"> </span></div><div class="col-lg-5 text-center servicios-texto">LIBROS. El colegio facilita los libros y el material escolar desde el primer día.</div>
-						<div class="col-lg-1 servicios serviciosG text-center"><span class="icon-transporte"> </span></div><div class="col-lg-5 text-center servicios-texto">TRANSPORTE ESCOLAR. Cumple un amplio radio geográfico. Cada autobús cuenta con un monitor.</div>
+						<div class="col-lg-1 servicios serviciosI text-center"><span class="icon-metodologia"> </span></div><div class="col-lg-5 text-center servicios-texto">LIBROS. El colegio facilita los libros y el material escolar desde el primer día.</div>
+						<div class="col-lg-1 servicios serviciosI text-center"><span class="icon-transporte"> </span></div><div class="col-lg-5 text-center servicios-texto">TRANSPORTE ESCOLAR. Cumple un amplio radio geográfico. Cada autobús cuenta con un monitor.</div>
 					</div>	
 					<div class="col-lg-12">
-						<div class="col-lg-1 servicios serviciosG text-center"><span class="icon-reloj"> </span></div><div class="col-lg-5 text-center servicios-texto">AULA MATINAL Y VESPERTINA. Aula que permite conciliar el horario de trabajo con el de sus hijos.</div>
-						<div class="col-lg-1 servicios serviciosG text-center"><span class="icon-sanitario"> </span></div><div class="col-lg-5 text-center servicios-texto">SERVICIO SANITARIO. Contamos con 5 socorristas titulados, un técnico en enfermería y un seguro de accidentes que cubre a los alumnos en sus actividades escolares dentro y fuera del centro.</div>
+						<div class="col-lg-1 servicios serviciosI text-center"><span class="icon-reloj"> </span></div><div class="col-lg-5 text-center servicios-texto">AULA MATINAL Y VESPERTINA. Aula que permite conciliar el horario de trabajo con el de sus hijos.</div>
+						<div class="col-lg-1 servicios serviciosI text-center"><span class="icon-sanitario"> </span></div><div class="col-lg-5 text-center servicios-texto">SERVICIO SANITARIO. Contamos con 5 socorristas titulados, un técnico en enfermería y un seguro de accidentes que cubre a los alumnos en sus actividades escolares dentro y fuera del centro.</div>
 					</div>	
 					<div class="col-lg-12">
-						<div class="col-lg-1 servicios serviciosG text-center"><span class="icon-orientacion"> </span></div><div class="col-lg-5 text-center servicios-texto">ORIENTACIÓN. Servicio de apoyo a todos los alumnos, tanto a los que tienen dificultades como a los que quieren mejorar sus técnicas de estudio.</div>
-						<div class="col-lg-1 servicios serviciosG text-center"><span class="icon-seguro"> </span></div><div class="col-lg-5 text-center servicios-texto">SEGURO DE CONTINUIDAD DE ESTUDIOS. Seguro que cubre los estudios y el comedor hasta bachillerato en caso de fallecimiento o incapacidad laboral de cualquiera de los progenitores.</div>
+						<div class="col-lg-1 servicios serviciosI text-center"><span class="icon-orientacion"> </span></div><div class="col-lg-5 text-center servicios-texto">ORIENTACIÓN. Servicio de apoyo a todos los alumnos, tanto a los que tienen dificultades como a los que quieren mejorar sus técnicas de estudio.</div>
+						<div class="col-lg-1 servicios serviciosI text-center"><span class="icon-seguro"> </span></div><div class="col-lg-5 text-center servicios-texto">SEGURO DE CONTINUIDAD DE ESTUDIOS. Seguro que cubre los estudios y el comedor hasta bachillerato en caso de fallecimiento o incapacidad laboral de cualquiera de los progenitores.</div>
 					</div>
 				</div>
 				<div class="col-lg-2 col-lg-offset-10 col-md-2 col-md-offset-10 col-sm-12 col-xs-12 espacio">
-					<a href="#formulario"><p class="general informacion">+Información</p></a>
+					<a href="#formulario"><p class="infantil informacion">+Información</p></a>
 				</div>
 			</div> <!-- SERVICIOS -->
 		</div>
@@ -291,7 +291,7 @@
 			<div class="col-lg-8 col-lg-offset-2 barra">
 			</div>
 			<div class="col-lg-12 espacio"> <!-- METODOLOGIA -->
-				<div class="titular color-general text-center">
+				<div class="titular color-infantil text-center">
 					<span class="icon-metodologia"> </span><span>METODOLOGIA</span>
 				</div>
 				<div class="espacio">
@@ -317,16 +317,80 @@
 						<ul class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 ul-instalaciones text-center">
 							<li>Fomentamos la capacidad de ANÁLISIS E INVESTIGACIÓN de los alumnos</li>
 							<li>Potenciamos el trabajo colaborativo a través de herramientas del siglo XXI</li>
-							<li>El BILINGÜISMO es nuestra forma de ser</li>
 						</ul>
+					</div>
+					<div class="col-lg-12 espacio">
+						<h3 class="text-center">Áreas de conocimiento y sus periodos</h3>
+						<table class="table-infantil col-lg-12">
+							<tr>
+								<th class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">Áreas</th>
+								<th class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">2 y 3 años</th>
+								<th class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">4 y 5 años</th>
+							</tr>
+							<tr class="odd">
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">Español</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">-</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">13</td>
+							</tr>
+							<tr>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">English</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">27 y 26</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">14</td>
+							</tr>
+							<tr class="odd">
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">Psicomotricidad*</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">3</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">2</td>
+							</tr>
+							<tr>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">Piscina</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">2</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">2</td>
+							</tr>
+							<tr class="odd">
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">Música*</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">2</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">2</td>
+							</tr>
+							<tr>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">Informática*</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">Se trabaja en clase de inglés y de español indistintamente</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">1</td>
+							</tr>
+							<tr class="odd">
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">Religión/Alternativa</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">1</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">1</td>
+							</tr>
+							<tr>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">Siesta</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">1</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">-</td>
+							</tr> 
+							<tr class="odd">
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">Arte</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">Se trabaja en clase de inglés y de español indistintamente</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">Se trabaja en clase de inglés y de español indistintamente</td>
+							</tr> 
+							<tr>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">Valores</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">Se trabaja en clase de inglés y de español indistintamente</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">Se trabaja en clase de inglés y de español indistintamente</td>
+							</tr> 
+							<tr class="odd">
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">Periodos en inglés</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">34</td>
+								<td class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">22</td>
+							</tr> 
+						</table>
 					</div>
 				</div>
 				<div class="col-lg-2 col-lg-offset-10 col-md-2 col-md-offset-10 col-sm-12 col-xs-12 espacio">
-					<a href="#formulario"><p class="general informacion">+Información</p></a>
+					<a href="#formulario"><p class="infantil informacion">+Información</p></a>
 				</div>
 			</div> <!-- METODOLOGIA -->
 		</div>
-		<footer class="footerGeneral">
+		<footer class="footerInfantil">
 		<div class="container">
 			<p class="texto">© Copyright COLEGIO INTERNACIONAL ARAVACA (Colegios Privados Internacionales, S.L.). Todos los derechos reservados</p>
 		</div>

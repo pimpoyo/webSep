@@ -31,9 +31,28 @@ body {
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
-    border: 1px solid #0088ff;
     border-radius: 7px;
     color: #ffffff;
+}
+
+.select-general {
+    border: 1px solid #0088ff;
+}
+
+.select-infantil {
+    border: 1px solid #98c21a;
+}
+
+.select-primaria {
+    border: 1px solid #ffc000;
+}
+
+.select-secundaria {
+    border: 1px solid #7d7d7d;
+}
+
+.select-bachillerato {
+    border: 1px solid #ff782e;
 }
 
 .footerGeneral {
@@ -45,10 +64,46 @@ body {
     text-align: center;
 }
 
+.footerInfantil {
+    background-color: #98c21a;
+    color: #ffffff;
+    font-weight: lighter;
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.footerPrimaria {
+    background-color: #ffc000;
+    color: #ffffff;
+    font-weight: lighter;
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.footerSecundaria {
+    background-color: #7d7d7d;
+    color: #ffffff;
+    font-weight: lighter;
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.footerBachillerato {
+    background-color: #ff782e;
+    color: #ffffff;
+    font-weight: lighter;
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
 #formulario {
 	background-color: rgba(0, 0, 0, 0.4);
 	position: absolute;
-	top: 24%;
+	top: 173px;
 	right: 28%;
 	margin: 30px;
 	padding: 5px 35px 25px;
@@ -91,6 +146,53 @@ body {
 	background-color: #0058a6;
 }
 
+.btInfantil {
+	background-color: #98c21a;
+	color: white;
+	transition-duration: 0.5s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+}
+
+.btInfantil:hover {
+	background-color: #0058a6;
+}
+
+.btPrimaria {
+	background-color: #ffc000;
+	color: white;
+	transition-duration: 0.5s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+}
+
+.btPrimaria:hover {
+	background-color: #0058a6;
+}
+
+.btSecundaria {
+	background-color: #7d7d7d;
+	color: white;
+	transition-duration: 0.5s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+}
+
+.btSecundaria:hover {
+	background-color: #0058a6;
+}
+
+.btBachillerato {
+	background-color: #ff782e;
+	color: white;
+	transition-duration: 0.5s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+}
+
+.btBachillerato:hover {
+	background-color: #0058a6;
+}
 .form {
 	padding-top: 104px;
 }
@@ -118,8 +220,56 @@ body {
     transition-timing-function: linear;
 }
 
+.infantil {
+	background-color: #98c21a;
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.primaria {
+	background-color: #ffc000;
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.secundaria {
+	background-color: #7d7d7d;
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.bachillerato {
+	background-color: #ff782e;
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
 .text-general {
 	color: #0088ff;
+	margin: 10px 0;
+}
+
+.text-infantil {
+	color: #98c21a;
+	margin: 10px 0;
+}
+
+.text-primaria {
+	color: #ffc000;
+	margin: 10px 0;
+}
+
+.text-secundaria {
+	color: #7d7d7d;
+	margin: 10px 0;
+}
+
+.text-bachillerato {
+	color: #ff782e;
 	margin: 10px 0;
 }
 
@@ -128,6 +278,38 @@ body {
 }
 
 .ageneral:hover > .general {
+	background-color: #0058a6;
+}
+
+.ainfantil:hover > .text-infantil{
+	color: #0058a6;	
+}
+
+.ainfantil:hover > .infantil {
+	background-color: #0058a6;
+}
+
+.aprimaria:hover > .text-primaria{
+	color: #0058a6;	
+}
+
+.aprimaria:hover > .primaria {
+	background-color: #0058a6;
+}
+
+.asecundaria:hover > .text-secundaria{
+	color: #0058a6;	
+}
+
+.asecundaria:hover > .secundaria {
+	background-color: #0058a6;
+}
+
+.abachillerato:hover > .text-bachillerato{
+	color: #0058a6;	
+}
+
+.abachillerato:hover > .bachillerato {
 	background-color: #0058a6;
 }
 
@@ -251,6 +433,23 @@ a, a:hover {
 .color-general {
 	color: #0088ff;
 }
+
+.color-infantil {
+	color: #98c21a;
+}
+
+.color-primaria {
+	color: #ffc000;
+}
+
+.color-secundaria {
+	color: #7d7d7d;
+}
+
+.color-bachillerato {
+	color: #ff782e;
+}
+
 .titulo {
 	font-size: 21px;
 	font-weight: bold;
@@ -318,10 +517,17 @@ a, a:hover {
 }
 
 .servicios span {
-	color: #0088ff;
 	font-size: 50px;
 	margin: 0 25px;
 	text-align: center;
+}
+
+.serviciosG span {
+	color: #0088ff;
+}
+
+.serviciosI span {
+	color: #98c21a;
 }
 
 .servicios-texto {
@@ -332,29 +538,50 @@ a, a:hover {
 	}
 
 .general-img {
-    /*-webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -ms-transform: scale(1.2);*/
     transform: scale(1);
 	animation-name: example;
-	animation-duration: 2s;
-    /*-webkit-transition: all 2s ease-in-out;
-    -moz-transition: all 2s ease-in-out;
-    -o-transition: all 2s ease-in-out;*/
+	animation-duration: 5s;
 }
 
 .submenu {
-	margin-top: -150px;
+	margin-top: -156px;
 }
 
 .navbar-default {
 	border-color: inherit;
 }
 
+table {
+	border: solid 1px #AAAAAA;
+	font-size: 12px;
+}
+
+tr th {
+	padding: 10px 0;
+	border: solid 1px #EEEEEE;
+}
+
+table tr td {
+	padding: 10px 0;
+	border: solid 1px #EEEEEE;
+}
+
+.odd {
+	background-color: #DDDDDD;
+	border: solid 1px #FFFFFF;
+}
+
+.table-infantil tr th {
+	background-color: #98c12a;
+} 
+
+.table-primaria tr th {
+	background-color: #ffc000;
+} 
+
 @keyframes example {
 	from {
-		transform: scale(0.8);
+		transform: scale(0.9);
 	}
 	to {
 		transform: scale(1);
