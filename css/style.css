@@ -36,10 +36,19 @@ body {
     color: #ffffff;
 }
 
+.footerGeneral {
+    background-color: #0088ff;
+    color: #ffffff;
+    font-weight: lighter;
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
 #formulario {
 	background-color: rgba(0, 0, 0, 0.4);
 	position: absolute;
-	top: 15%;
+	top: 24%;
 	right: 28%;
 	margin: 30px;
 	padding: 5px 35px 25px;
@@ -73,7 +82,15 @@ body {
 .btGeneral {
 	background-color: #0088ff;
 	color: white;
+	transition-duration: 0.5s;
+    transition-property: background-color;
+    transition-timing-function: linear;
 }
+
+.btGeneral:hover {
+	background-color: #0058a6;
+}
+
 .form {
 	padding-top: 104px;
 }
@@ -111,6 +128,10 @@ body {
 }
 
 .ageneral:hover > .general {
+	background-color: #0058a6;
+}
+
+.informacion:hover {
 	background-color: #0058a6;
 }
 
@@ -324,7 +345,7 @@ a, a:hover {
 }
 
 .submenu {
-	margin-top: -50px;
+	margin-top: -150px;
 }
 
 .navbar-default {
