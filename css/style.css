@@ -17,6 +17,10 @@ body {
 	min-height: 105px;
 }
 
+.navbar-default .navbar-nav > li > a {
+	color: #FFFFFF;
+}
+
 #bs-menu {
 	padding-top: 25px;
 }
@@ -108,6 +112,96 @@ body {
 
 .ageneral:hover > .general {
 	background-color: #0058a6;
+}
+
+.a-infantil::before {
+	border-bottom: 1px solid #98c21a;
+    color: #98c21a;
+    content: attr(data-hover);
+    left: 0;
+    max-width: 0;
+    overflow: hidden;
+    margin: 15px;
+	padding-bottom: 15px;
+	position: absolute;
+    top: 0;
+    transition: max-width 0.5s ease 0s;
+}
+
+.a-infantil:hover::before, .a-infantil:focus::before {
+	max-width: 100%;
+}
+
+.a-primaria::before {
+	border-bottom: 1px solid #ffc000;
+    color: #ffc000;
+    content: attr(data-hover);
+    left: 0;
+    max-width: 0;
+    overflow: hidden;
+    margin: 15px;
+	padding-bottom: 15px;
+	position: absolute;
+    top: 0;
+    transition: max-width 0.5s ease 0s;
+}
+
+.a-primaria:hover::before, .a-primaria:focus::before {
+	max-width: 100%;
+}
+
+.a-secundaria::before {
+	border-bottom: 1px solid #7d7d7d;
+    color: #7d7d7d;
+    content: attr(data-hover);
+    left: 0;
+    max-width: 0;
+    overflow: hidden;
+    margin: 15px;
+	padding-bottom: 15px;
+	position: absolute;
+    top: 0;
+    transition: max-width 0.5s ease 0s;
+}
+
+.a-secundaria:hover::before, .a-secundaria:focus::before {
+	max-width: 100%;
+}
+
+.a-bachillerato::before {
+	border-bottom: 1px solid #ff782e;
+    color: #ff782e;
+    content: attr(data-hover);
+    left: 0;
+    max-width: 0;
+    overflow: hidden;
+    margin: 15px;
+	padding-bottom: 15px;
+	position: absolute;
+    top: 0;
+    transition: max-width 0.5s ease 0s;
+}
+
+.a-bachillerato:hover::before, .a-bachillerato:focus::before {
+	max-width: 100%;
+}
+
+.a-general::before {
+	border-bottom: 1px solid #0088ff;
+    color: #0088ff;
+    content: attr(data-hover);
+    left: 0;
+    max-width: 0;
+    overflow: hidden;
+    margin: 15px;
+	padding-bottom: 15px;
+	position: absolute;
+    top: 0;
+    transition: max-width 0.5s ease 0s;
+}
+
+.a-general:hover::before, .a-general:focus::before {
+	max-width: 100%;
 }
 
 .vertical-align {
