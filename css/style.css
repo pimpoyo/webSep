@@ -782,7 +782,7 @@ table tr td {
     animation-iteration-count: infinite;
     position:absolute;
     margin-left: -1000px;
-    color: rgba(255,255,255,1.0);
+    color: rgba(255,255,255,0);
 }
 
 .frase1 {
@@ -798,11 +798,11 @@ table tr td {
     animation-delay:30s;
 }
 
-/* Remove the ugly line by removing the border */
+/* Remove the ugly line in the navbar */
 .navbar-collapse {
   border-top: 0;
+	box-shadow: none;
 }
-
 
 @media (max-width: 767px) {
 	.text-instalaciones {
@@ -877,10 +877,6 @@ table tr td {
 	.navbar-toggle {
 	  display: block;
 	  margin-top: 30px;
-	}
-	.navbar-collapse {
-	  /* This way the border is *barely* seen */
-	  box-shadow: inset 0 0px 0 rgba(255,255,255,0.01);
 	}
 	.navbar-fixed-top {
 	  top: 0;
