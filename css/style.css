@@ -104,12 +104,9 @@ body {
 	background-color: rgba(0, 0, 0, 0.4);
 	padding: 5px 35px 25px;
 }
-#formulario {
-	position: absolute;
-	top: 173px;
-	right: 28%;
-	margin: 30px;
-	width: 400px;
+
+.formulario {
+	margin-top: 200px;
 }
 
 .feedback-input {
@@ -616,6 +613,9 @@ table tr td {
 	font-weight: lighter;
 }
 
+.frase1, .frase2, .frase3, .frase4 {
+	color: #FFFFFF;
+}
 /* Remove the ugly line by removing the border */
 .navbar-collapse {
   border-top: 0;
@@ -680,7 +680,18 @@ table tr td {
 		padding: 10px 80px;
 	}
 
+	.frases {
+		margin-top: 50px;
+	}
+
+	.frase1, .frase2, .frase3, .frase4 {
+		padding: 25px 0;
+		font-size: 20px;
+	}
+	
 	.eslogan {
-		font-size: 24px;
+		font-size: 26px;
+		font-weight: lighter;
+		padding-top: 100px;
 	}
 }
