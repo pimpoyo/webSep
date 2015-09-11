@@ -626,6 +626,29 @@ table tr td {
 	.text-instalaciones {
 		padding: 10px 0;
 	}
+	
+	.frases {
+		margin-top: 40px;
+	}
+
+	.frase1, .frase2, .frase3, .frase4 {
+		padding: 15px 0;
+		font-size: 20px;
+		line-height: 120%;
+	}
+	
+	.eslogan {
+		font-size: 26px;
+		font-weight: lighter;
+		line-height: 120%;
+		padding-top: 40px;
+	}
+
+	.ancla {
+		padding-top: 200px;
+		margin-bottom: 100px;
+		margin-top: -150px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -667,11 +690,52 @@ table tr td {
 	.collapse.in{
 	  display:block !important;
 	}
+	
+	.frases {
+		margin-top: 40px;
+	}
+
+	.frase1, .frase2, .frase3, .frase4 {
+		padding: 15px 0;
+		font-size: 20px;
+	}
+	
+	.eslogan {
+		font-size: 26px;
+		font-weight: lighter;
+		padding-top: 40px;
+	}
+
+	.ancla {
+		padding-top: 200px;
+		margin-bottom: 100px;
+		margin-top: -150px;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	.text-instalaciones {
 		padding: 10px 80px;
+	}
+
+	.frases {
+		margin-top: 50px;
+	}
+
+	.frase1, .frase2, .frase3, .frase4 {
+		padding: 20px 0;
+		font-size: 20px;
+	}
+	
+	.eslogan {
+		font-size: 26px;
+		font-weight: lighter;
+		padding-top: 80px;
+	}
+
+	.ancla {
+		padding-top: 200px;
+		margin-top: -100px;
 	}
 }
 
@@ -693,5 +757,10 @@ table tr td {
 		font-size: 26px;
 		font-weight: lighter;
 		padding-top: 100px;
+	}
+
+	.ancla {
+		padding-top: 200px;
+		margin-top: -100px;
 	}
 }
