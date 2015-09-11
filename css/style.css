@@ -155,7 +155,7 @@ body {
 }
 
 .btInfantil:hover {
-	background-color: #0058a6;
+	background-color: #708f13;
 }
 
 .btPrimaria {
@@ -167,7 +167,7 @@ body {
 }
 
 .btPrimaria:hover {
-	background-color: #0058a6;
+	background-color: #dba500;
 }
 
 .btSecundaria {
@@ -179,7 +179,7 @@ body {
 }
 
 .btSecundaria:hover {
-	background-color: #0058a6;
+	background-color: #666666;
 }
 
 .btBachillerato {
@@ -191,7 +191,7 @@ body {
 }
 
 .btBachillerato:hover {
-	background-color: #0058a6;
+	background-color: #a14c1d;
 }
 .form {
 	padding-top: 104px;
@@ -282,35 +282,35 @@ body {
 }
 
 .ainfantil:hover > .text-infantil{
-	color: #0058a6;	
+	color: #708f13;	
 }
 
 .ainfantil:hover > .infantil {
-	background-color: #0058a6;
+	background-color: #708f13;
 }
 
 .aprimaria:hover > .text-primaria{
-	color: #0058a6;	
+	color: #dba500;	
 }
 
 .aprimaria:hover > .primaria {
-	background-color: #0058a6;
+	background-color: #dba500;
 }
 
 .asecundaria:hover > .text-secundaria{
-	color: #0058a6;	
+	color: #666666;	
 }
 
 .asecundaria:hover > .secundaria {
-	background-color: #0058a6;
+	background-color: #666666;
 }
 
 .abachillerato:hover > .text-bachillerato{
-	color: #0058a6;	
+	color: #a14c1d;	
 }
 
 .abachillerato:hover > .bachillerato {
-	background-color: #0058a6;
+	background-color: #a14c1d;
 }
 
 .informacion:hover {
@@ -586,7 +586,17 @@ table tr td {
 
 .table-bachillerato tr th {
 	background-color: #ff782e;
-} 
+}
+
+.itinerario {
+	color: #ff782e;
+	font-weight: bold;
+}
+
+.rama {
+	color: #ff782e;
+	font-weight: bold;
+}
 
 @keyframes example {
 	from {
