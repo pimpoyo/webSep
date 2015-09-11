@@ -703,9 +703,53 @@ table tr td {
 	font-weight: lighter;
 }
 
-.frase1, .frase2, .frase3, .frase4 {
-	color: #FFFFFF;
+/* The animation code */
+@keyframes frase_inout {
+  0%   {
+    margin-left:-1000px; margin-top:0px;
+    color: rgba(255,255,255,0);
+  }
+  3%  {
+    margin-left: 0; 
+    color: rgba(255,255,255,1.0);
+  }
+  20%  {
+    margin-left: 0; 
+    color: rgba(255,255,255,1.0);
+  }
+  22%  {
+    margin-left:0;
+    color: rgba(255,255,255,0);
+  }
+  25%  {
+    margin-left: -1000px;
+    color: rgba(255,255,255,0);
+  }
 }
+
+/* The element to apply the animation to */
+.inout{
+    animation-name: frase_inout;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    position:absolute;
+    margin-left: -1000px;
+    color: rgba(255,255,255,1.0);
+}
+
+.frase1 {
+    animation-delay:0s;
+}
+.frase2 {
+    animation-delay:15s;
+}
+.frase3 {
+    animation-delay:30s;
+}
+.frase4 {
+    animation-delay:45s;
+}
+
 /* Remove the ugly line by removing the border */
 .navbar-collapse {
   border-top: 0;
