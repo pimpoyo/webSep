@@ -515,9 +515,28 @@ a, a:hover {
 	line-height: 120%;
 }
 .escudo {
-	background: url("../img/escudo.png") no-repeat;
 	height: 118px;
 	width: 103px;
+}
+
+.escudoG {
+	background: url("../img/escudoG.png") no-repeat;
+}
+
+.escudoI {
+	background: url("../img/escudoI.png") no-repeat;
+}
+
+.escudoP {
+	background: url("../img/escudoP.png") no-repeat;
+}
+
+.escudoS {
+	background: url("../img/escudoS.png") no-repeat;
+}
+
+.escudoB {
+	background: url("../img/escudoB.png") no-repeat;
 }
 
 .escudo span {
