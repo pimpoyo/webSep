@@ -732,15 +732,15 @@ table tr td {
     margin-left: 0; 
     color: rgba(255,255,255,1.0);
   }
-  20%  {
+  15%  {
     margin-left: 0; 
     color: rgba(255,255,255,1.0);
   }
-  22%  {
+  20%  {
     margin-left:0;
     color: rgba(255,255,255,0);
   }
-  25%  {
+  21%  {
     margin-left: -1000px;
     color: rgba(255,255,255,0);
   }
@@ -749,7 +749,7 @@ table tr td {
 /* The element to apply the animation to */
 .inout{
     animation-name: frase_inout;
-    animation-duration: 60s;
+    animation-duration: 40s;
     animation-iteration-count: infinite;
     position:absolute;
     margin-left: -1000px;
@@ -760,13 +760,13 @@ table tr td {
     animation-delay:0s;
 }
 .frase2 {
-    animation-delay:15s;
+    animation-delay:10s;
 }
 .frase3 {
-    animation-delay:30s;
+    animation-delay:20s;
 }
 .frase4 {
-    animation-delay:45s;
+    animation-delay:30s;
 }
 
 /* Remove the ugly line by removing the border */
@@ -794,7 +794,7 @@ table tr td {
 		font-size: 26px;
 		font-weight: lighter;
 		line-height: 120%;
-		padding-top: 40px;
+		padding-top: 115px;
 	}
 
 	.ancla {
