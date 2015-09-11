@@ -813,6 +813,11 @@ table tr td {
 		margin-top: 40px;
 	}
 
+	.navbar-toggle {
+	  display: block;
+	  margin-top: 30px;
+	}
+
 	.frase1, .frase2, .frase3, .frase4 {
 		padding: 15px 0;
 		font-size: 20px;
