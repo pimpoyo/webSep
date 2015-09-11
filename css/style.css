@@ -476,13 +476,32 @@ a, a:hover {
 }
 
 .recuadro {
-	border: solid 3px #0088ff;
 	border-radius: 30px;
 	height: 265px;
 	margin-top: -56px;
 	padding: 20px;
 	text-align: center;
 	width: 282px;
+}
+
+.rGeneral {
+	border: solid 3px #0088ff;
+}
+
+.rInfantil {
+	border: solid 3px #98c12a;
+}
+
+.rPrimaria {
+	border: solid 3px #ffc000;
+}
+
+.rSecundaria {
+	border: solid 3px #7d7d7d;
+}
+
+.rBachillerato {
+	border: solid 3px #ff782e;
 }
 
 .texto-grande {
