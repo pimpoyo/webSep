@@ -312,8 +312,24 @@ body {
 	background-color: #a14c1d;
 }
 
-.informacion:hover {
+.informacionG:hover {
 	background-color: #0058a6;
+}
+
+.informacionI:hover {
+	background-color: #708f13;
+}
+
+.informacionP:hover {
+	background-color: #dba500;
+}
+
+.informacionS:hover {
+	background-color: #666666;
+}
+
+.informacionB:hover {
+	background-color: #a14c1d;
 }
 
 .a-infantil::before {
@@ -492,7 +508,7 @@ a, a:hover {
     text-align: center;
 }
 
-.informacion {
+.informacionG {
 	color: white;
 	font-size: 22px;
 	font-weight: lighter;
@@ -501,6 +517,70 @@ a, a:hover {
 	border-radius: 7px;
 	margin: 10px 0 0 0;
 	text-decoration: none;
+	background-color: #0088ff;
+    transition-duration: 0.5s;
+    transition-property: color, background-color;
+    transition-timing-function: linear;
+}
+
+.informacionI {
+	color: white;
+	font-size: 22px;
+	font-weight: lighter;
+	padding: 10px 0;
+	text-align: center;
+	border-radius: 7px;
+	margin: 10px 0 0 0;
+	text-decoration: none;
+	background-color: #98c12a;
+    transition-duration: 0.5s;
+    transition-property: color, background-color;
+    transition-timing-function: linear;
+}
+
+.informacionP {
+	color: white;
+	font-size: 22px;
+	font-weight: lighter;
+	padding: 10px 0;
+	text-align: center;
+	border-radius: 7px;
+	margin: 10px 0 0 0;
+	text-decoration: none;
+	background-color: #ffc000;
+    transition-duration: 0.5s;
+    transition-property: color, background-color;
+    transition-timing-function: linear;
+}
+
+.informacionS {
+	color: white;
+	font-size: 22px;
+	font-weight: lighter;
+	padding: 10px 0;
+	text-align: center;
+	border-radius: 7px;
+	margin: 10px 0 0 0;
+	text-decoration: none;
+	background-color: #7d7d7d;
+    transition-duration: 0.5s;
+    transition-property: color, background-color;
+    transition-timing-function: linear;
+}
+
+.informacionB {
+	color: white;
+	font-size: 22px;
+	font-weight: lighter;
+	padding: 10px 0;
+	text-align: center;
+	border-radius: 7px;
+	margin: 10px 0 0 0;
+	text-decoration: none;
+	background-color: #ff782e;
+    transition-duration: 0.5s;
+    transition-property: color, background-color;
+    transition-timing-function: linear;
 }
 
 .text-instalaciones {
@@ -590,15 +670,6 @@ table tr td {
 .rama {
 	color: #ff782e;
 	font-weight: bold;
-}
-
-@keyframes example {
-	from {
-		transform: scale(0.9);
-	}
-	to {
-		transform: scale(1);
-	}
 }
 
 .dim-img {
