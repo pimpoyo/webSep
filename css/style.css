@@ -649,6 +649,37 @@ table tr td {
 		margin-bottom: 100px;
 		margin-top: -150px;
 	}
+	
+	.a-general::before {
+		margin-left: 15px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+	}
+	
+	.a-infantil::before {
+		margin-left: 15px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+	}
+
+	.a-primaria::before {
+		margin-left: 15px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+	}
+	
+	.a-secundaria::before {
+		margin-left: 15px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+	}
+	
+	.a-bachillerato::before {
+		margin-left: 15px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+	}
+	
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -711,6 +742,37 @@ table tr td {
 		margin-bottom: 100px;
 		margin-top: -150px;
 	}
+	
+	.a-general::before {
+		margin-left: 15px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+	}
+	
+	.a-infantil::before {
+		margin-left: 15px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+	}
+
+	.a-primaria::before {
+		margin-left: 15px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+	}
+	
+	.a-secundaria::before {
+		margin-left: 15px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+	}
+	
+	.a-bachillerato::before {
+		margin-left: 15px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+	}
+	
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
