@@ -625,8 +625,25 @@ a, a:hover {
 	font-size: 21px;
 	line-height: 120%;
 }
-.ul-instalaciones {
+
+.ul-instalacionesG {
 	list-style: url("../img/bolo-general.png");
+}
+
+.ul-instalacionesI {
+	list-style: url("../img/bolo-infantil.png");
+}
+
+.ul-instalacionesP {
+	list-style: url("../img/bolo-primaria.png");
+}
+
+.ul-instalacionesS {
+	list-style: url("../img/bolo-secundaria.png");
+}
+
+.ul-instalacionesB {
+	list-style: url("../img/bolo-bachillerato.png");
 }
 
 .ul-instalaciones li {
@@ -645,6 +662,18 @@ a, a:hover {
 
 .serviciosI span {
 	color: #98c21a;
+}
+
+.serviciosP span {
+	color: #ffc000;
+}
+
+.serviciosS span {
+	color: #7d7d7d;
+}
+
+.serviciosB span {
+	color: #ff782e;
 }
 
 .servicios-texto {
