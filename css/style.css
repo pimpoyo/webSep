@@ -199,6 +199,19 @@ body {
 	color: #FFFFFF;
 }
 
+.form-error {
+  background-color:red;
+}
+
+.form-success {
+  background: white none repeat scroll 0 0;
+  color: green;
+  font-weight: bold;
+  margin: 20px 40px;
+  padding: 20px 60px;
+  text-align: center;
+}
+
 .redondo {
 	border-radius: 50%;
 	height: 100px;
