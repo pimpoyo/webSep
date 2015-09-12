@@ -693,9 +693,6 @@ a, a:hover {
 	margin: 0 0 40px;
 }
 	
-.general-img {
-	background-image: url("../img/imgGeneral-lg.jpg");
-}
 
 .submenu {
 	margin-top: -156px;
@@ -888,6 +885,26 @@ table tr td {
 		margin-top: 10px;
 		padding-bottom: 5px;
 	}
+
+	.general-img {
+		background-image: url("../img/imgGeneral-xs.jpg");
+	}
+
+	.infantil-img {
+		background-image: url("../img/imgInfantil-xs.jpg");
+	}
+
+	.primaria-img {
+		background-image: url("../img/imgPrimaria-xs.jpg");
+	}
+
+	.secundaria-img {
+		background-image: url("../img/imgSecundaria-xs.jpg");
+	}
+
+	.bachillerato-img {
+		background-image: url("../img/imgBachillerato-xs.jpg");
+	}
 	
 }
 
@@ -977,6 +994,27 @@ table tr td {
 		margin-top: 10px;
 		padding-bottom: 5px;
 	}
+
+	.general-img {
+		background-image: url("../img/imgGeneral-sm.jpg");
+	}
+
+	.infantil-img {
+		background-image: url("../img/imgInfantil-sm.jpg");
+	}
+
+	.primaria-img {
+		background-image: url("../img/imgPrimaria-sm.jpg");
+	}
+
+	.secundaria-img {
+		background-image: url("../img/imgSecundaria-sm.jpg");
+	}
+
+	.bachillerato-img {
+		background-image: url("../img/imgBachillerato-sm.jpg");
+	}
+	
 	
 }
 
@@ -1004,6 +1042,27 @@ table tr td {
 		padding-top: 200px;
 		margin-top: -100px;
 	}
+
+	.general-img {
+		background-image: url("../img/imgGeneral-md.jpg");
+	}
+
+	.infantil-img {
+		background-image: url("../img/imgInfantil-md.jpg");
+	}
+
+	.primaria-img {
+		background-image: url("../img/imgPrimaria-md.jpg");
+	}
+
+	.secundaria-img {
+		background-image: url("../img/imgSecundaria-md.jpg");
+	}
+
+	.bachillerato-img {
+		background-image: url("../img/imgBachillerato-md.jpg");
+	}
+	
 }
 
 @media (min-width: 1200px) {
@@ -1030,4 +1089,25 @@ table tr td {
 		padding-top: 200px;
 		margin-top: -100px;
 	}
+
+	.general-img {
+		background-image: url("../img/imgGeneral-lg.jpg");
+	}
+
+	.infantil-img {
+		background-image: url("../img/imgInfantil-lg.jpg");
+	}
+
+	.primaria-img {
+		background-image: url("../img/imgPrimaria-lg.jpg");
+	}
+
+	.secundaria-img {
+		background-image: url("../img/imgSecundaria-lg.jpg");
+	}
+
+	.bachillerato-img {
+		background-image: url("../img/imgBachillerato-lg.jpg");
+	}
+	
 }
