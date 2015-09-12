@@ -821,6 +821,11 @@ table tr td {
 	margin-top: 40px;
 }
 
+.leyenda {
+	font-size: 12px;
+	text-align: center;
+}
+
 @media (max-width: 767px) {
 	.text-instalaciones {
 		padding: 10px 0;
